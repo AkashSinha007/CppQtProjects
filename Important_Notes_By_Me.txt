@@ -1,0 +1,11 @@
+
+1.QPainter : Logical Coordinates , Windows Coordinates
+  QPaintDevice: Physical Coordinates , Viewport Coordinates
+  
+  Logical and Physical Coordinates are same by default.
+  But they can be changed with below functions:
+  Logical: setWindow()
+  Physical: setViewPort()
+  
+2. The Only way to draw on QWidget is through paintEvent().
+   But we can draw directly on Pixmap.
