@@ -16,6 +16,8 @@ public:
     ~Widget();
 
 private:
+    void drawCar(QPainter *painter);
+    void drawCarV2(QPainter *painter,QRectF rect,QColor tireColor);
     Ui::Widget *ui;
 
     // QWidget interface
